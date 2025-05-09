@@ -1,7 +1,19 @@
-I'm pleased to announce the completion of my latest project, "Enterprise Office Building Infrastructure" 🏢.
+# Enterprise Office Building Infrastructure 🏢
 
-This project involved designing and implementing a scalable and secure network across a multi-department office building. Each of the eight departments—Finance, HR, Sales, IT, Admin, Reception, Store, and Logistics—was assigned a dedicated VLAN for optimal network segmentation and security 🛡️.
+This project showcases the design and implementation of a scalable, secure network infrastructure for a multi-department enterprise office building.
 
-I implemented dynamic addressing using DHCP and ensured efficient inter-departmental routing through OSPF. Additionally, security and remote management were strengthened through SSH and specialized port security configurations. Both wired and wireless network configurations were carefully implemented to ensure full end-to-end communication between devices 📶.
+Key features include:
 
-The entire network was designed, configured, and tested in Cisco Packet Tracer, following real-world enterprise design principles.
+• Segmented network using dedicated **VLANs** for Finance, HR, Sales, IT, Admin, Reception, Store, and Logistics departments 🛡️
+
+• Dynamic IP addressing via **DHCP**
+
+• Inter-VLAN routing with **OSPF** to ensure efficient communication between departments
+
+• **SSH** configuration for secure remote management
+
+• **Port security** with sticky MAC addressing to enhance device-level security
+
+• Integration of both **wired** and **wireless** networks for comprehensive device connectivity 📶
+
+• Built, configured, and tested in **Cisco Packet Tracer**, applying enterprise-grade networking principles
